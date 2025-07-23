@@ -1,0 +1,50 @@
+:root {
+  --background-dark: #1a1a2e;
+  --primary-purple: #8A2BE2;
+  --secondary-purple: #4a148c; 
+  --text-light: #e0e0e0; 
+  --accent-light: #bb86fc; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: var(--background-dark);
+  color: var(--text-light);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: var(--accent-light);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--primary-purple);
+}
+
+section {
+  padding: 80px 5%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--accent-light);
+  margin-bottom: 20px;
+}
